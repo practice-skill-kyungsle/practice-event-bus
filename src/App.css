@@ -1,0 +1,38 @@
+#dummy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: #d32f2f;
+  color: aquamarine;
+}
+
+#butonWrapper {
+  height: 100px;
+  display: flex;
+  background-color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#busButton {
+  width: 100px;
+  height: 50px;
+  background-color: cadetblue;
+}
+
+#contextButton {
+  width: 100px;
+  height: 50px;
+  background-color: chocolate;
+}
+
+#subscriber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: aqua;
+}
