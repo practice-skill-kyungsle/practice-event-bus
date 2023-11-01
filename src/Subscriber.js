@@ -16,7 +16,7 @@ function Subscriber() {
     };
   }, []);
 
-  return <div>{received}</div>;
+  return <div style={{ backgroundColor: "orange" }}>{received}</div>;
 }
 
 export default Subscriber;

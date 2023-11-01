@@ -5,7 +5,13 @@ function Publisher() {
     eventBus.emit("myEvent", "Hello, I AM Publisher!");
   };
 
-  return <button onClick={handleClick}>Click Me!</button>;
+  return (
+    <button onClick={handleClick} style={_style}>
+      Click Me!
+    </button>
+  );
 }
+
+const _style = { backgroundColor: "white" };
 
 export default Publisher;

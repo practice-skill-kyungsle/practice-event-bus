@@ -6,6 +6,7 @@ function App() {
     <div>
       <Publisher />
       <Subscriber />
+      <div style={{ backgroundColor: "#d32f2f" }}>dummy</div>
     </div>
   );
 }
