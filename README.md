@@ -1,2 +1,31 @@
-# prac_event_bus
-what is event bus pattern in react?
+## 이벤트 버스라는 것을 공부해보자
+
+https://qshop.ai/
+
+## 목적
+
+컴포넌트와 컴포넌트 사이에서 props로 연결하는 것이 성능 저하를 많이 불러들였습니다.
+
+React Global Context를 사용하는데 단 하나의 Context에서 모든 상태를 관리하니 불필요한 컴포넌트 리렌더링이 많이 발생했습니다.
+
+이미 출시를 한 상태여서 이를 세부 Context로 분리하기도 쉽지 않았습니다.
+
+전역에서 내려주는 context 혹은 prop 형태의 컴포넌트 간 데이터 전달과 다른 패턴을 사용해야 합니다.
+
+공부 결과 event bus 패턴이라는 것이 있어 공부해봅니다.
+
+![Untitled](https://github.com/keinn51/prac_event_bus/assets/79993356/3b610389-431a-452e-8910-204aa9092e87)
+
+- 이벤트: 이벤트 버스에서 송수신되는 메시지입니다.
+- 게시자: 이벤트를 발신하는 발신자입니다.
+- 구독자: 이벤트를 수신하는 수신자입니다.
+
+## 결과
+
+https://github.com/keinn51/prac_event_bus/assets/79993356/45e6e29d-79c0-40cd-abdc-2569c0ddc4bc
+
+## 한계
+
+이벤트 버스 패턴은 특정 이벤르를 구독하게 하는 것은 가능하나, context에서 사용하던 변수 저장 기능을 그대로 활용하는 것이 어렵습니다. (store가 없습니다.)
+
+store를 위해서 커스텀하게 패턴을 바꾸어야 하는데 가능할지는 의문입니다. 더욱 연구해봐야 할 사안입니다.
