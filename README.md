@@ -14,7 +14,8 @@ React Global Context를 사용하는데 단 하나의 Context에서 모든 상�
 
 공부 결과 event bus 패턴이라는 것이 있어 공부해봅니다.
 
-![Untitled](https://github.com/keinn51/prac_event_bus/assets/79993356/3b610389-431a-452e-8910-204aa9092e87)
+![324159024-4b3f27c0-3170-460f-a19d-215a4b70a9c6](https://github.com/keinn51/keinn51/assets/79993356/b1bcbe3c-c9b6-4b4e-9fee-e8e4abbe6486)
+
 
 - 이벤트: 이벤트 버스에서 송수신되는 메시지입니다.
 - 게시자: 이벤트를 발신하는 발신자입니다.
@@ -22,7 +23,8 @@ React Global Context를 사용하는데 단 하나의 Context에서 모든 상�
 
 ## 결과
 
-https://github.com/keinn51/prac_event_bus/assets/79993356/45e6e29d-79c0-40cd-abdc-2569c0ddc4bc
+https://github.com/keinn51/keinn51/assets/79993356/47c1fa6c-915e-416a-b932-fca388b7ad74
+
 
 ## 한계
 
